@@ -1,4 +1,4 @@
-const printSegitiga = 6;
+const printSegitiga = 5;
 
 if (typeof(printSegitiga) !== 'number'){
     console.log('Data harus number !');

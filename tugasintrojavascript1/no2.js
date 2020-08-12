@@ -1,13 +1,12 @@
-const mtk = 90;
-const bahasaIndonesia = 80;
-const bahasaInggris = 84;
-const ipa = 88;
+const mtk = 45;
+const bahasaIndonesia = 33;
+const bahasaInggris = 77;
+const ipa = 76;
 
-const hasil = (mtk + bahasaIndonesia + bahasaInggris + ipa) / 4;
-let grade = '';
-
-if (typeof(mtk) === 'number' && typeof(bahasaIndonesia) === 'number' && typeof(bahasaInggris) === 'number' && typeof(ipa) === 'number'){
+if (typeof(mtk && bahasaIndonesia && bahasaInggris && ipa) === 'number'){
+    const hasil = parseInt((mtk + bahasaIndonesia + bahasaInggris + ipa) / 4);
     console.log(`Rata-rata = ${hasil}`);
+    let grade = '';
     if (hasil >= 90 && hasil <= 100){
         grade = 'A';
         console.log(`Grade = ${grade}`);
@@ -27,5 +26,5 @@ if (typeof(mtk) === 'number' && typeof(bahasaIndonesia) === 'number' && typeof(b
         console.log('Grade tidak ada !');
     }    
 } else {
-    console.log('Error');
+    console.log('Error, semua nilai harus diisi !');
 }

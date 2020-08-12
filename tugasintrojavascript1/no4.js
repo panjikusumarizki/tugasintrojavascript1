@@ -13,9 +13,10 @@ let data = {
     website: 'hildegard.org'
 }
 
-const myData = {...data, name: 'Panji Kusumarizki', email: 'pnksm009@gmail.com', hobby: 'Membaca, Bermain, Belajar, Bermusik'};
+const myData = {...data, name: 'Panji Kusumarizki', email: 'pnksm009@gmail.com', hobby: ['Belajar', 'Bermusik']};
 
-//console.log(myData);
+console.log(myData);
+console.log();
 
 const {address} = data;
 

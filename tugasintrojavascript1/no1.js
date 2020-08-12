@@ -1,20 +1,20 @@
 const biodata = {
     name: 'Panji Kusumarizki',
     age: 24,
-    hobbies: ['Membaca', 'Bermain', 'Belajar', 'Bermusik'],
+    hobbies: ['Belajar', 'Bermusik'],
     isMarried: false,
     schoolList: [
         {
             name: 'SD Negeri Sragen 18',
             yearIn: 2001,
             yearOut: 2007,
-            major: 'null'
+            major: null
         },
         {
             name: 'SMP Negeri 2 Tonjong',
             yearIn: 2007,
             yearOut: 2010,
-            major: 'null'
+            major: null
         },
         {
             name: 'SMA N 2 Slawi',
